@@ -7,10 +7,7 @@ import Pendong from './RestoComps/Pendong'
 import RoadGrille from './RestoComps/RoadGrille'
 import Yamashita from './RestoComps/Yamashita'
 
-
 class App extends Component {
-
-
     constructor(props) {
       super(props);
       this.state = {superTotal:0, superQty:0 };
