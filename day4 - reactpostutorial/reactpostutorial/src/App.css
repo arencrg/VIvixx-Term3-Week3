@@ -1,24 +1,72 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css?family=Spectral|Timmana');
+
+body {
   text-align: center;
+  display: inline-block;
+  padding-bottom: 100px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+#fixedbottom {
+  text-align: center;
+  background: black;
   color: white;
+  height: 70px;
+  padding: 0 10px 0 10px;
+  font-family: 'Timmana', sans-serif;
 }
 
-.App-intro {
-  font-size: large;
+#cup {
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#total {
+  font-size: 16px;
+  font-family: 'Timmana', sans-serif;
+}
+
+#cupdiv, #totaldiv {
+  margin: 0 0 -26px 0;
+  padding: 0;
+}
+
+#buttonqty  {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  color: white;
+  background: black;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  body {
+    width: 100%;
+/*    padding: 0 0 0 0 !important;
+    margin: 10px 10px 10px 10px !important; */
+    padding: 0;
+  }
+
+  #fixedbottom {
+    background: black;
+    color: white;
+    height: 40px;
+    padding: 0 20px 0 20px;
+    font-family: 'Timmana', sans-serif;
+  }
+
+  #total {
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Timmana', sans-serif;
+  }
+
+  #cup {
+    font-size: 35px;
+    text-align: left;
+  }
+
+  p{
+    font-family: 'Spectral', serif;
+  }
 }
