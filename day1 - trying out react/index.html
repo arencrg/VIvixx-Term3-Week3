@@ -1,0 +1,107 @@
+<script>
+ReactDOM.render(
+  <h3>Hello, world!</h3>,
+  document.getElementById('root')
+);
+
+class HelloMessage extends React.Component {
+  render() {
+    return <h3>Sinong {this.props.trait}? Si Aren! </h3>;
+  }
+}
+
+ReactDOM.render(
+  <HelloMessage trait="maganda"/>, document.getElementById('helloaren')
+);
+
+class AllAboutMeApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.state = {traits: [], text: ''};
+  }
+
+  render() {
+    return (
+      <div>
+        <h3>What elseeeee?</h3>
+        <AllAboutMeList traits={this.state.traits} />
+        <form onSubmit={this.handleSubmit}>
+          <input onChange={this.handleChange} value={this.state.text} /> &nbsp;
+          <button>{'Give me mooore'}</button>
+        </form>
+      </div>
+    );
+  }
+
+  handleChange(e) {
+    this.setState({text: e.target.value});
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    var newItem = {
+      text: this.state.text,
+      id: Date.now()
+    };
+    this.setState((prevState) => ({
+      traits: prevState.traits.concat(newItem),
+      text: ''
+    }));
+  }
+}
+
+class AllAboutMeList extends React.Component {
+  render() {
+    return (
+      <ul>
+        {this.props.traits.map(trait => (
+          <li key={trait.id}>Siya ay {trait.text}!</li>
+        ))}
+      </ul>
+    );
+  }
+}
+
+ReactDOM.render(
+  < AllAboutMeApp />, document.getElementById('arenarenaren')
+);
+
+class Timer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {secondsElapsed: 0};
+  }
+
+  tick() {
+    this.setState((prevState) => ({
+      secondsElapsed: prevState.secondsElapsed + 1
+    }));
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  render() {
+    return (
+      <div>Seconds Elapsed: {this.state.secondsElapsed}</div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Timer />, document.getElementById('timer')
+);
+
+</script>
+
+<div id="root"></div>
+<div id="helloaren"></div>
+<div id="arenarenaren"></div>
+<div id="timer"></div>
