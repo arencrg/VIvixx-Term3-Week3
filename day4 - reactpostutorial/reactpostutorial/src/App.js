@@ -63,7 +63,7 @@ class Summary extends Component {
 class IndivCoffee extends Component {
   constructor(props) {
     super(props);
-    this.state = {coffeeQty:0, coffeeTotal: 0, coffeeSubtotal: 0};
+    this.state = {coffeeQty:0, coffeeTotal: 0};
     this.moreQty = this.moreQty.bind(this);
     this.lessQty = this.lessQty.bind(this);
   }

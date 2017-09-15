@@ -1,10 +1,8 @@
 # ReactJS Shopping Cart
 
-This tutorial will guide you in creating a Shopping Cart using ReactJS. It doesn't have a checkout system, it's just a simple shopping cart. You can check mine out on [Heroku](https://calleunopours.herokuapp.com/). Honestly, I am a newbie to React and I have around a week's worth of React experience. If you're thinking, "Well, why am I gonna read this crap then? I can probably do better on my own!" Fair point. Maybe you can do better on your own. The value of this tutorial lies exactly in my declaration of my newness to React. Following a guide from the perspective of someone like me who isn't an expert on React is a good way to not feel so dumb when you're trying to learn it. As High School Musical has taught me, we're all in this together. We're all learning together, and really, doesn't that make you feel all warm and gooey inside?
+This tutorial will guide you in creating a Shopping Cart using ReactJS. It doesn't have a checkout system, it's just a simple shopping cart. You can check mine out on [Heroku](https://calleunopours.herokuapp.com/). Honestly, I am a newbie to React and I have around a week's worth of React experience. If you're thinking, "Well, why am I gonna read this crap then? I can probably do better on my own!" Fair point. Maybe you can do better on your own. The value of this tutorial lies exactly in my declaration of my newness to React. Following a guide from the perspective of someone like me who isn't an expert on React, someone who is learning with you, is a good way to not feel so dumb when you're trying to learn it. As High School Musical has taught me, we're all in this together. We're all learning together, and really, doesn't that make you feel all warm and gooey inside?
 
-Hopefully you're coming into this with a little bit of knowledge on how HTML, CSS and JS work, and if not... Uh, I guess you can still try to follow along.
-
-Before we begin, we must make sure that we have all the necessary files installed, such as Node [NPM](https://nodejs.org/en/) (so we can install everything with NPM), the text editor of your choice (I personally use Atom, but feel free to use Sublime or any online editor like Codepen.io), all of that. Open up your Terminal or Powershell, cd to wherever you want to put the project, and then do the following:
+Hopefully you're coming into this with a little bit of knowledge on how HTML, CSS and JS work, and if not... Uh, I guess you can still try to follow along. Before we begin, we must make sure that we have all the necessary files installed, such as Node [NPM](https://nodejs.org/en/) (so we can install everything with NPM), the text editor of your choice (I personally use Atom, but feel free to use Sublime or any online editor like Codepen.io), all of that. Open up your Terminal or Powershell, cd to wherever you want to put the project, and then do the following:
 
 ####    `npm install create-react-app`
 (create-react-app + the name of your app, in this case it's reactpostutorial)
@@ -55,6 +53,7 @@ Personally, I prefer adding Bootstrap and jQuery and everything else I need befo
   <body>
     <div id="root"></div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   </body>
 </html>
 
