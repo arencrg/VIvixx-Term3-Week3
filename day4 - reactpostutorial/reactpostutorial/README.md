@@ -1,4 +1,6 @@
-# This tutorial will guide you in creating a Shopping Cart using ReactJS
+# ReactJS Shopping Cart
+
+This tutorial will guide you in creating a Shopping Cart using ReactJS. It doesn't have a checkout system, it's just a simple shopping cart. You can check mine out on [Heroku](https://calleunopours.herokuapp.com/). Honestly, I am a newbie to React and I have around a week's worth of React experience. If you're thinking, "Well, why am I gonna read this crap then? I can probably do better on my own!" Fair point. Maybe you can do better on your own. The value of this tutorial lies exactly in my declaration of my newness to React. Following a guide from the perspective of someone like me who isn't an expert on React is a good way to not feel so dumb when you're trying to learn it. As High School Musical has taught me, we're all in this together. We're all learning together, and really, doesn't that make you feel all warm and gooey inside?
 
 Hopefully you're coming into this with a little bit of knowledge on how HTML, CSS and JS work, and if not... Uh, I guess you can still try to follow along.
 
@@ -28,9 +30,7 @@ reactpostutorial/
         logo.svg
 ```
 
-If you're
-
-After that, we can fire up the app in development mode by typing
+Go ahead and run `npm install` in case you miss some dependencies. After that, we can fire up the app in development mode by typing
 
 #### `npm start`
 
@@ -238,8 +238,8 @@ Okay, let's discuss this part. We just want to call and `coffeeTotal`. If you fi
 
 Go check out `App.js` in the `src` folder to see if you've done it the same way. Did you get it right? Are we on the same page? Is everything in the right order?
 
-Now it's up to you to design everything, use Bootstrap or just do everything manually with CSS... And there you go, a Shopping Cart! Good luck coding!
+Now it's up to you to design everything, use Bootstrap or just do everything manually with CSS... And there you go, a Shopping Cart! The shopping cart I did is on [Heroku](https://calleunopours.herokuapp.com/). Good luck coding!
 
 --------
 
-If you have any questions, shoot me a message at arencancode@gmail.com or slide into my DMs @euroCLANGuages ;-) 
+If you have any questions, shoot me a message at arencancode@gmail.com or slide into my Twitter DMs @euroCLANGuages ;-)
