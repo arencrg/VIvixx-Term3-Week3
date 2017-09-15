@@ -135,7 +135,7 @@ Okay, great. The next step is to work on a class that displays each individual i
   class IndivCoffee extends Component {
     constructor(props) {
       super(props);
-      this.state = {coffeeQty:0, coffeeTotal: 0, coffeeSubtotal: 0};
+      this.state = {coffeeQty:0, coffeeTotal: 0};
       this.moreQty = this.moreQty.bind(this);
       this.lessQty = this.lessQty.bind(this);
     }
@@ -241,4 +241,4 @@ Now it's up to you to design everything, use Bootstrap or just do everything man
 
 --------
 
-If you have any questions, shoot me a message at arencancode@gmail.com or slide into my Twitter DMs @euroCLANGuages ;-)
+If you have any questions, shoot me a message at arencancode@gmail.com or slide into my Twitter DMs @euroCLANGuages ;-) I would really appreciate new coding buddies, hahaha!
