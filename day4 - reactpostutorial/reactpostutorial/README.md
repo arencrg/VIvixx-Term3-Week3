@@ -190,7 +190,9 @@ Remember that empty `render` from `CoffeeClass`? Let's go fill that up.
     var that = this;
     var coffeeTypes = this.state.coffeeTypes.map(function(coffeeType) {
       return(
-        <IndivCoffee name={coffeeType.name} description={coffeeType.description} price={coffeeType.price} imageid={coffeeType.imageid} handleChange={that.changeTotal}/>
+        <IndivCoffee name={coffeeType.name} description={coffeeType.description}
+                     price={coffeeType.price} imageid={coffeeType.imageid}
+                     handleChange={that.changeTotal} />
       );
     });
 
