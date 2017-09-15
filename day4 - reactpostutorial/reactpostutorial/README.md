@@ -1,4 +1,4 @@
-# This tutorial will guide you in creating a Shopping Cart/POS using ReactJS
+# This tutorial will guide you in creating a Shopping Cart using ReactJS
 
 Hopefully you're coming into this with a little bit of knowledge on how HTML, CSS and JS work, and if not... Uh, I guess you can still try to follow along.
 
@@ -228,4 +228,4 @@ Okay, let's discuss this part. We just want to call and `coffeeTotal`. If you fi
 
 Go check out my `App.js` to see if you've done it the same way. Did you get it right? Are we on the same page? Is everything in the right order?
 
-Now it's up to you to design everything, use Bootstrap or just do everything manually with CSS... And there you go, a POS/ Shopping Cart! Good luck coding!
+Now it's up to you to design everything, use Bootstrap or just do everything manually with CSS... And there you go, a Shopping Cart! Good luck coding!
