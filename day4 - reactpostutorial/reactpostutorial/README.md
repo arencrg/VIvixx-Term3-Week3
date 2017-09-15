@@ -28,6 +28,8 @@ reactpostutorial/
         logo.svg
 ```
 
+If you're
+
 After that, we can fire up the app in development mode by typing
 
 #### `npm start`
@@ -148,6 +150,8 @@ Okay, great. The next step is to work on a class that displays each individual i
         if (this.state.coffeeQty < 0)
         return alert("Error! Orders can't be less than 0");
       }
+
+    ...
 ```
 
 Right now you might be thinking, "Woah there, what's all of that?! Slow down!" (And if you aren't, well, ...okay, you can skip this part then).
@@ -157,6 +161,8 @@ This new class should have a function that will control the quantity of each ord
 Got it? Okay, good! Next we'll create the individual posts that will display the coffee types. Head on over to the `render()` part.
 
 ````
+  ...
+
   render() {
     return (
       <div className="col-xs-12 col-md-3">
@@ -186,6 +192,8 @@ This code isn't gonna work right, cause it doesn't go through the array to get t
 Remember that empty `render` from `CoffeeClass`? Let's go fill that up.
 
 ````
+  ...
+
   render() {
     var that = this;
     var coffeeTypes = this.state.coffeeTypes.map(function(coffeeType) {
@@ -228,6 +236,10 @@ But wait, what's that `Summary`? It's a new class we're creating in a bit to be 
 
 Okay, let's discuss this part. We just want to call and `coffeeTotal`. If you fire the app up, the `coffeeTotal` should have collected all the changes with the `changeTotal()` function. Easy peasy lemon squeezy.
 
-Go check out my `App.js` to see if you've done it the same way. Did you get it right? Are we on the same page? Is everything in the right order?
+Go check out `App.js` in the `src` folder to see if you've done it the same way. Did you get it right? Are we on the same page? Is everything in the right order?
 
 Now it's up to you to design everything, use Bootstrap or just do everything manually with CSS... And there you go, a Shopping Cart! Good luck coding!
+
+--------
+
+If you have any questions, shoot me a message at arencancode@gmail.com or slide into my DMs @euroCLANGuages ;-) 
